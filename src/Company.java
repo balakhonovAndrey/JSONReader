@@ -7,7 +7,7 @@ public class Company {
     private String name_short;
     private String inn;
 
-    private CompanyType companyType;
+    private Company_type company_type;
 
     private String ogrn;
     private String egrul_date;
@@ -66,12 +66,12 @@ public class Company {
         this.inn = inn;
     }
 
-    public CompanyType getCompanyType() {
-        return companyType;
+    public Company_type getCompany_type() {
+        return company_type;
     }
 
-    public void setCompanyType(CompanyType companyType) {
-        this.companyType = companyType;
+    public void setCompany_type(Company_type company_type) {
+        this.company_type = company_type;
     }
 
     public String getOgrn() {
@@ -162,7 +162,7 @@ public class Company {
                 ", nameFull='" + name_full + '\'' +
                 ", nameShort='" + name_short + '\'' +
                 ", inn='" + inn + '\'' +
-//                ", companyType=" + companyType.toString() +
+                ", company_type=" + company_type.toString() +
                 ", ogrn='" + ogrn + '\'' +
                 ", egrulDate='" + egrul_date + '\'' +
                 ", country=" + country.toString() +

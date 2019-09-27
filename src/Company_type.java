@@ -1,9 +1,9 @@
-public class CompanyType {
+public class Company_type {
     private int id;
     private String name_short;
     private String name_full;
 
-    public CompanyType() {
+    public Company_type() {
     }
 
     public int getId() {
@@ -32,7 +32,7 @@ public class CompanyType {
 
     @Override
     public String toString() {
-        return "CompanyType{" +
+        return "Company_type{" +
                 "id=" + id +
                 ", nameShort='" + name_short + '\'' +
                 ", nameFull='" + name_full + '\'' +
