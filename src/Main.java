@@ -12,7 +12,7 @@ public class Main {
 
         JReader reader = new JReader();
 
-        String path = "F:\\workspace\\JReader\\src\\companies.json";
+        String path = "/home/robot-user/idea-workspace/JReader/src/companies.json";
 
         try {
             companyList = reader.getCompanies(reader.getString(path));
